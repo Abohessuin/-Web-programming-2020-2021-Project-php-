@@ -42,5 +42,5 @@ error_reporting(E_ALL);
          
  $dbname = 'linkedon';
 
-# test code for dbconnection
- will be in notepad 
+# test code for dbconnection 
+ will be in notepad on testdbconnection brunch
