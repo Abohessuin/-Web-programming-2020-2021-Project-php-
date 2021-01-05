@@ -34,13 +34,13 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 # DB-connection
- $dbhost = 'localhost';
- 
- $dbuser = 'root';
- 
- $dbpass = '12345678';
+$dbhost = 'b6i4lcwselcvp9xxmquj-mysql.services.clever-cloud.com';
+
+$dbuser = 'u8hxp9n7ybmmmwrg';
+
+$dbpass = 'oR2iOO2sTpQLBvMOKKwg';
          
- $dbname = 'linkedon';
+$dbname = 'b6i4lcwselcvp9xxmquj';
 
 # test code for dbconnection 
  will be in notepad on testdbconnection brunch
