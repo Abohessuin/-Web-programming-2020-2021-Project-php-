@@ -2,12 +2,13 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-         $dbhost = 'localhost';
-         $dbuser = 'root';
-         $dbpass = '12345678';
-         $dbname = 'linkedon';
+         $dbhost = 'b6i4lcwselcvp9xxmquj-mysql.services.clever-cloud.com';
+         $dbuser = 'u8hxp9n7ybmmmwrg';
+         $dbpass = 'oR2iOO2sTpQLBvMOKKwg';
+         $dbname = 'b6i4lcwselcvp9xxmquj';
          $conn = mysqli_connect($dbhost, $dbuser, $dbpass,$dbname);
    
+    
          if(! $conn ) {
             die('Could not connect: ' . mysqli_error());
          }
@@ -23,7 +24,5 @@ error_reporting(E_ALL);
             echo "0 results";
          }
          mysqli_close($conn);
-
-
 
 ?>
