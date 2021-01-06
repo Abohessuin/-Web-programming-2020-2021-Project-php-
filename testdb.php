@@ -2,10 +2,14 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-         $dbhost = 'b6i4lcwselcvp9xxmquj-mysql.services.clever-cloud.com';
-         $dbuser = 'u8hxp9n7ybmmmwrg';
-         $dbpass = 'oR2iOO2sTpQLBvMOKKwg';
-         $dbname = 'b6i4lcwselcvp9xxmquj';
+        $dbhost = 'bleowlp0nvlhx4ipkujn-mysql.services.clever-cloud.com';
+
+        $dbuser = 'ug0qvs5nb2xs6msh';
+
+        $dbpass = 'kcTyXpYKZVE6leVGpJnG';
+
+        $dbname = 'bleowlp0nvlhx4ipkujn'; 
+
          $conn = mysqli_connect($dbhost, $dbuser, $dbpass,$dbname);
    
     
