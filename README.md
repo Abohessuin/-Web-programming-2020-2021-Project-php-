@@ -34,13 +34,13 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 # DB-connection
-$dbhost = 'b6i4lcwselcvp9xxmquj-mysql.services.clever-cloud.com';
+$dbhost = 'bleowlp0nvlhx4ipkujn-mysql.services.clever-cloud.com';
 
-$dbuser = 'u8hxp9n7ybmmmwrg';
+$dbuser = 'ug0qvs5nb2xs6msh';
 
-$dbpass = 'oR2iOO2sTpQLBvMOKKwg';
+$dbpass = 'kcTyXpYKZVE6leVGpJnG';
          
-$dbname = 'b6i4lcwselcvp9xxmquj';
+$dbname = 'bleowlp0nvlhx4ipkujn';
 
 # test code for dbconnection 
  will be in notepad on testdbconnection brunch
