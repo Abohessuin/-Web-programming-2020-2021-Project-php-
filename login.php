@@ -155,12 +155,29 @@ a{color:inherit;text-decoration:none}
 }
 .foot-lnk{
 	text-align:center;
-}</style>
+}
+.logo{
+margin-left: 45%;
+height: 40px;
+margin-bottom: 5%;
+}
+.login-html img{
+	height: 30;
+	width: 30;
+margin: auto;
+}
+
+</style>
 	
 </head>
 <body>
+	<div class="logo">
+			<img src="out.png">
+		</div>
 	<div class="login-wrap">
+		
 	<div class="login-html">
+		
 		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
 		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
 		<div class="login-form">
@@ -216,4 +233,5 @@ a{color:inherit;text-decoration:none}
 
 </body>
 </html>
+
 
