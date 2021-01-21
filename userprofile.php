@@ -25,8 +25,15 @@
                         <img class="img2" src="img/img3.png" />
                     </div>
                     <div class="inffo">
-                        <div class="name">Mohamed hessuin</div>
-                        <div class="workInfo">Software Engineering at koskos</div>
+                        <div class="edit">
+                            <div class="name">Mohamed hessuin</div>
+                            <form method="POST" action="EditInfo.php">
+                                <a href="##"><button>Edit profile</button></a>
+                            </form>
+                            <a href="##"><button>Posts liked</button></a>
+
+                        </div>
+                        <div class="workInfo">Software Engineering </div>
                     </div>
                 </div>
             </div>
@@ -35,16 +42,7 @@
         <div class="About">
             <div class="about">About</div>
             <div class="aboutInfo">
-                i am mohamed hessuin software Engineering in ksokos, try so hard
-                asdasdas dasdas das dasd asdas dasd asdas das das dasd asd asdas dasd
-                i am mohamed hessuin software Engineering in ksokos, try so hard
-                asdasdas dasdas das dasd asdas dasd asdas das das dasd asd asdas dasd
-                asdasdas dasdas das dasd asdas dasd asdas das das dasd asd asdas dasd
-                i am mohamed hessuin software Engineering in ksokos, try so hard
-                asdasdas dasdas das dasd asdas dasd asdas das das dasd asd asdas dasd asdasdas dasdas das dasd asdas
-                dasd asdas das das dasd asd asdas dasd
-                i am mohamed hessuin software Engineering in ksokos, try so hard
-                asdasdas dasdas das dasd asdas dasd asdas das das dasd asd asdas dasd
+                I am mohamed hessuin software Engineering
             </div>
         </div>
 
@@ -64,8 +62,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="##"><button>Edit profile</button></a>
-                    <a href="##"><button>Posts liked</button></a>
+
                 </div>
 
             </div>
@@ -105,39 +102,7 @@
                         </div>
 
                     </div>
-                    <div class="fullpost">
-                        <div class="Post">
-                            <div class="profile">
-                                <img class="me" src="./img/pexels-photo-220453.jpeg" alt="Avatar">
-                                <div class="info">
-                                    <div class="head">
-                                        <h1 class="Name">Simon Smith</h1>
-                                        <h1 class="Hr">3h ago</h1>
-                                    </div>
-                                    <div class="chat">
 
-                                        <h2 class="Date">2021/1/2</h2>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <div class="caption">
-                                <p>if U Don't Like The World that U Live In U Must have The Power to Change it</p>
-                                <img class="sea" src="./img/pexels-markus-spiske-129105.jpg" alt="sea" />
-                                <div class="comment">
-                                    <input class="typecomment" type="text" placeholder="Comment Here ...">
-                                    <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="icons">
-                            <i class="far fa-heart"></i>
-                            <i class="far fa-comment"></i>
-                            <i class="far fa-paper-plane"></i>
-                        </div>
-
-                    </div>
                 </div>
 
             </div>

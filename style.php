@@ -14,7 +14,7 @@ box-sizing:border-box;
 .Container{
 width:100%;
 height:auto;
-background-color:black;
+background-color:#2b3e6b;
 padding-left:200px;
 padding-top:100px;
 perspective: 1000px;
@@ -87,11 +87,18 @@ margin-left:190px;
 display:flex;
 flex-direction:column;
 height:64px;
-justify-content:space-between;
+
 background-color:white;
+
+width:100%
+}
+.inffo .edit{
+
+display:flex;
 
 
 }
+
 .workInfo{
 background-color:white;
 }
@@ -188,12 +195,28 @@ width:100px;
 font-size: 15px;
 padding:10px;
 border-radius: 4px;
-border: 2px solid #4CAF50;
+border: 2px solid #2b3e6b;
+font-weight: bold;
+margin-left: 2%;
+font-family: 'Inter', sans-serif;
+cursor: pointer;
+background: transparent;
+transition: all 0.5s ease;
 
+
+}
+button:hover{
+background-color:#2b3e6b;
+color: white;
+}
+.edit a button {
+margin-left: 35%;
+}
+.edit a {
+margin-left: 1%;
 }
 
 .skills{
-border:5px solid gray;
 padding:5px;
 }
 
@@ -275,12 +298,12 @@ color: aliceblue;
 display: flex;
 flex-direction: column;
 position: absolute;
-top: 40%;
+top: 50%;
 left: 90%;
 }
 
 .Posts .fullpost .icons i {
-font-size: 70px;
+font-size: 50px;
 margin-bottom: 60%;
 color: aliceblue;
 cursor: pointer;
