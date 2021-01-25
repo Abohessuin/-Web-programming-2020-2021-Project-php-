@@ -218,8 +218,8 @@ margin: auto;
 					<input id="pass" type="password" class="input" data-type="password">
 				</div>
 				<div class="group">
-					<label for="pass" class="label">Email Address</label>
-					<input id="pass" type="text" class="input">
+					<label for="Email" class="label">Email Address</label>
+					<input id="pass" type="Email" class="input">
 				</div>
 				<div class="group">
 					<label for="birthday" class="label">Date of birth:</label>
