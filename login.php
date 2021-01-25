@@ -79,6 +79,7 @@ a{color:inherit;text-decoration:none}
 .login-form .group .label,
 .login-form .group .input,
 .login-form .group .button{
+
 	width:100%;
 	color:#fff;
 	display:block;
@@ -148,12 +149,9 @@ a{color:inherit;text-decoration:none}
 	transform:rotate(0);
 }
 
-.hr{
-	height:2px;
-	margin:60px 0 50px 0;
-	background:rgba(255,255,255,.2);
-}
+
 .foot-lnk{
+
 	text-align:center;
 }
 .logo{
@@ -202,7 +200,11 @@ margin: auto;
 					<a href="#forgot">Forgot Password?</a>
 				</div>
 			</div>
-			<div class="sign-up-htm">
+			<form class="sign-up-htm" method="post" action="">
+				<div class="group">
+					<label for="img" class="label">Upload image:</label>
+                    <input type="file" id="img" name="img" accept="image/*">
+				</div>
 				<div class="group">
 					<label for="user" class="label">Username</label>
 					<input id="user" type="text" class="input">
@@ -220,18 +222,27 @@ margin: auto;
 					<input id="pass" type="text" class="input">
 				</div>
 				<div class="group">
+					<label for="birthday" class="label">Date of birth:</label>
+                    <input type="date" id="birthday" name="birthday">
+				</div>
+				<div class="group">
+					<input  type="radio" id="company" name="type" value="company" >
+					<label for="company"> Company </label>
+					<input  type="radio" id="user" name="type" value="user" >
+					<label for="user"> User </label>
+				</div>
+				<div class="group">
 					<input type="submit" class="button" value="Sign Up">
 				</div>
 				<div class="hr"></div>
 				<div class="foot-lnk">
 					<label for="tab-1">Already Member?</a>
 				</div>
-			</div>
+			</form>
 		</div>
 	</div>
 </div>
 
 </body>
 </html>
-
 
