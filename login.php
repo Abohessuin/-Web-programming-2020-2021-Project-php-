@@ -182,11 +182,11 @@ margin: auto;
 			<div class="sign-in-htm">
 				<div class="group">
 					<label for="user" class="label">Username</label>
-					<input id="user" type="text" class="input">
+					<input id="user" type="text" class="input" required>
 				</div>
 				<div class="group">
 					<label for="pass" class="label">Password</label>
-					<input id="pass" type="password" class="input" data-type="password">
+					<input id="pass" type="password" class="input" data-type="password" required>
 				</div>
 				<div class="group">
 					<input id="check" type="checkbox" class="check" checked>
@@ -203,27 +203,27 @@ margin: auto;
 			<form class="sign-up-htm" method="post" action="">
 				<div class="group">
 					<label for="img" class="label">Upload image:</label>
-                    <input type="file" id="img" name="img" accept="image/*">
+                    <input type="file" id="img" name="img" accept="image/*" required>
 				</div>
 				<div class="group">
 					<label for="user" class="label">Username</label>
-					<input id="user" type="text" class="input">
+					<input id="user" type="text" class="input" required>
 				</div>
 				<div class="group">
 					<label for="pass" class="label">Password</label>
-					<input id="pass" type="password" class="input" data-type="password">
+					<input id="pass" type="password" class="input" data-type="password" required>
 				</div>
 				<div class="group">
 					<label for="pass" class="label">Repeat Password</label>
-					<input id="pass" type="password" class="input" data-type="password">
+					<input id="pass" type="password" class="input" data-type="password" required>
 				</div>
 				<div class="group">
 					<label for="Email" class="label">Email Address</label>
-					<input id="pass" type="Email" class="input">
+					<input id="pass" type="Email" class="input" required>
 				</div>
 				<div class="group">
 					<label for="birthday" class="label">Date of birth:</label>
-                    <input type="date" id="birthday" name="birthday">
+                    <input type="date" id="birthday" name="birthday" required>
 				</div>
 				<div class="group">
 					<input  type="radio" id="company" name="type" value="company" >
