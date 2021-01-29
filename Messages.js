@@ -34,9 +34,16 @@ function CheckActiveText(x){
     });
 }
 
-    send[0].addEventListener("click", () => {
+    send[0].addEventListener("click", (e) => {
+
+       const postid=e.target.className[e.target.className.length - 1];
        var V = messagebox[0].value;
+       const out=messagebox[0].value+"-"+postid;
+       console.log(postid);
+       console.log(out);
        CheckActiveText(V)
+       $.post("chatback.php",{
+          hello: out
+       })
         messagebox[0].value="";
     });
-
